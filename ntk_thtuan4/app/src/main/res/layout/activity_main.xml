@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FF73"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:src="@drawable/android_logo" />
+
+        <EditText
+            android:id="@+id/edtuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:hint="User Name"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:ems="15"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttondangnhap"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="200dp"
+            android:backgroundTint="#f00"
+            android:text="Sign in"
+            android:textColor="#FFFFFF" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btndangki"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#f00"
+        android:text="Sign Up" />
+
+</RelativeLayout>
